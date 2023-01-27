@@ -13,7 +13,7 @@ const tutorials = [
 
 const titleCased = () => {
   for(let i = 0; i < tutorials.length; i++) {
-    const splitLine = tutorials[i].split(" ") // ['what', 'does', 'the', 'this', 'keyword', 'mean?']
+    const splitLine = tutorials[i].split(" ")
     for(let firstWords = 0; firstWords < splitLine.length; firstWords++) {
       splitLine[firstWords] = splitLine[firstWords].charAt(0).toUpperCase() + splitLine[firstWords].slice(1)
     }
